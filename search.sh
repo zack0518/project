@@ -1,0 +1,1 @@
+ssh -i /Users/jiaqili/Desktop/id_rsa ubuntu@$2 "chmod 777 SearchByName.py; nohup python3 SearchByName.py $1 $2 $3 2>&1 &"
